@@ -31,14 +31,6 @@ Nessa aula, voltamos a desenvolver nossa aplicação. Aqui desenvolvemos a algum
 
 **Para executar esse projeto você vai precisar do projeto da [aula 4](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/04-iniciando-back-end) rodando*
 
-```mermaid
-graph LR
-C -- Solicita dado --> B
-B -- Busca dado --> A
-A[Database] -- Retorna dado --> B((Back-end 'Aula4'))
-B -- Fornece dado solicitado--> C[Web GoBarber]
-```
-
 #### Procedimento
 1. Abra um terminal e navegue até a raíz do projeto.
 2. Instale as dependências com o comando:
