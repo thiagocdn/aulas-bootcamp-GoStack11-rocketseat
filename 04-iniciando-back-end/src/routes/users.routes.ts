@@ -33,8 +33,6 @@ usersRouter.patch(
   async (request, response) => {
     const updateUserAvatar = new UpdateUserAvatarService();
 
-    console.log(request.file);
-
     const user = await updateUserAvatar.execute({
       user_id: request.user.id,
       avatarFilename: request.file.filename,
