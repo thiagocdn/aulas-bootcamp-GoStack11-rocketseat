@@ -11,9 +11,9 @@ Abaixo você encontra o índice e conteúdo de cada aula:
 
 | Índice | README |
 | ------ | ------ |
-| 00 | [Back-end com Node.js](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/00-Backend-com-NodeJS) |
-| 01 | [Front-end com ReactJS](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/01-Frontend-com-ReactJS) |
-| 02 | [Mobile com React Native](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/02-Mobile-com-React-Native) |
+| 00 | [Back-end com Node.js](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/00-backend-com-nodejs) |
+| 01 | [Front-end com ReactJS](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/01-frontend-com-reactjs) |
+| 02 | [Mobile com React Native](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/02-mobile-com-react-native) |
 | 03 | [Primeiro projeto com Node.JS](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/03-primeiro-projeto-node) |
 | 04 | [Iniciando back-end do app](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/04-iniciando-back-end) |
 | 05 | [Primeiro projeto com React](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/05-primeiro-projeto-react) |
