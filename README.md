@@ -19,6 +19,7 @@ Abaixo você encontra o índice e conteúdo de cada aula:
 | 05 | [Primeiro projeto com React](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/05-primeiro-projeto-react) |
 | 06 | [Iniciando front-end web](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/06-gobarber-web) |
 | 07 | [Iniciando aplicativo mobile](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/07-appgobarber) |
+| 08 | [Iniciando aplicativo mobile](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/08-arquitetura-e-testes-no-nodejs) |
 
 Espero que o repositório ajude quem precisar!
 Fiquem a vontade para entrar em contato se tiver alguma dúvida ou sugestão.
