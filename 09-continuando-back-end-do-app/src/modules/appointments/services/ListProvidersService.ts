@@ -22,9 +22,7 @@ export default class ListProvidersService {
 
     users.map(user => {
       const userWithoutPassword = user;
-      if (userWithoutPassword.password) {
-        delete userWithoutPassword.password;
-      }
+      delete userWithoutPassword.password;
       return true;
     });
 
