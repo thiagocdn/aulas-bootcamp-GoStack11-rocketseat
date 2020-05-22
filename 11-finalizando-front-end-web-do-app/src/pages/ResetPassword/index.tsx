@@ -3,13 +3,14 @@ import * as Yup from 'yup';
 import { FormHandles } from '@unform/core';
 import { FiLock } from 'react-icons/fi';
 import { Form } from '@unform/web';
-import { useHistory } from 'react-router-dom';
+import { useHistory, useLocation } from 'react-router-dom';
 import { Container, Content, Background, AnimationContainer } from './styles';
 import logoImg from '../../assets/logo.svg';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 import getValidationErrors from '../../utils/getValidationErrors';
 import { useToast } from '../../hooks/toast';
+import api from '../../services/api';
 
 interface ResetPasswordFormData {
   password: string;
@@ -19,8 +20,10 @@ interface ResetPasswordFormData {
 const SignIn: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
 
-  const history = useHistory();
   const { addToast } = useToast();
+
+  const history = useHistory();
+  const location = useLocation();
 
   const handleSubmit = useCallback(
     async (data: ResetPasswordFormData) => {
@@ -38,10 +41,24 @@ const SignIn: React.FC = () => {
           abortEarly: false,
         });
 
+        const { password, password_confirmation } = data;
+        const token = location.search.replace('?token=', '');
+
+        if (!token) {
+          throw new Error();
+        }
+
+        await api.post('/password/reset', {
+          password,
+          password_confirmation,
+          token,
+        });
+
         addToast({
           type: 'success',
-          title: 'Login efetuado',
-          description: 'Seu login foi feito com sucesso!',
+          title: 'Senha Resetada com Sucesso!',
+          description:
+            'A sua senha foi resetada. Por favor, faça o login com a nova senha!',
         });
 
         history.push('/');
@@ -61,7 +78,7 @@ const SignIn: React.FC = () => {
         });
       }
     },
-    [addToast, history],
+    [addToast, history, location.search],
   );
 
   return (
