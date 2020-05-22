@@ -22,6 +22,7 @@ Abaixo você encontra o índice e conteúdo de cada aula:
 | 08 | [Iniciando aplicativo mobile](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/08-arquitetura-e-testes-no-nodejs) |
 | 09 | [Continuando back-end do app](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/09-continuando-back-end-do-app) |
 | 10 | [Finalizando back-end do app](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/10-finalizando-back-end-do-app) |
+| 11 | [Finalizando front-end web do app](https://github.com/thiagocdn/aulas-bootcamp-GoStack11-rocketseat/tree/master/11-finalizando-front-end-web-do-app) |
 
 Espero que o repositório ajude quem precisar!
 Fiquem a vontade para entrar em contato se tiver alguma dúvida ou sugestão.
