@@ -50,13 +50,10 @@ describe('SignIn Page', () => {
     fireEvent.click(buttonElement);
 
     await wait(() => {
+      expect(mockedHistoryPush).toHaveBeenCalledWith('/dashboard');
       expect(mockedAddToast).toHaveBeenCalledWith(
         expect.objectContaining({ type: 'success' }),
       );
-    });
-
-    await wait(() => {
-      expect(mockedHistoryPush).toHaveBeenCalledWith('/dashboard');
     });
   });
 
